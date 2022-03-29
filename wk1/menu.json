@@ -18,47 +18,47 @@
 		},
 
 		{
-			"itemName": "William",
-			"ingredients": ["Banana", "apple", "pops"],
-			"description": "Paul"
+			"itemName": "Cranberry Turkey Wraps",
+			"ingredients": ["mandarin oranges", "plain yogurt", "dried cranberries"],
+			"description": "Combine yogurt and mayonnaise; spread over tortillas.Layer each with lettuce, turkey, cheese, fruit mixture and pecans. Roll up tightly."
 		}
 	],
 
 	"hotSandwiches": [{
-			"itemName": "William",
-			"ingredients": ["Banana", "apple", "pops"],
-			"description": "Paul"
+			"itemName": "Mojito Pulled Pork",
+			"ingredients": ["boneless pork shoulder roast", "green chiles", "sandwich buns"],
+			"description": "Trim remaining cilantro, discarding stems. Add the whole cilantro leaves, onions, chiles and garlic to the slow cooker."
 		},
 
 		{
-			"itemName": "William",
-			"ingredients": ["Banana", "apple", "pops"],
-			"description": "Paul"
+			"itemName": "Philly Cheese Sandwiches",
+			"ingredients": ["boneless beef", "dried oregano", "dried basil"],
+			"description": "Stir to break up meat. Serve beef mixture and cheese on buns."
 		}
 	],
 	"desserts": [{
-			"itemName": "William",
-			"ingredients": ["Banana", "apple", "pops"],
-			"description": "Paul"
+			"itemName": "Chocolate Billionaires",
+			"ingredients": ["caramels", "chopped pecans", "Rice Krispies"],
+			"description": "Combine the caramels and water; cook and stir over low heat until smooth. Stir in pecans and cereal until coated. "
 		},
 
 		{
-			"itemName": "William",
-			"ingredients": ["Banana", "apple", "pops"],
-			"description": "Paul"
+			"itemName": "Semisweet Chocolate Mousse",
+			"ingredients": ["chocolate chips", "egg yolk, lightly beaten", "Whipped cream and raspberries"],
+			"description": "In a small saucepan, melt chocolate chips with water; stir until smooth. Stir a small amount of hot chocolate mixture into egg yolk; return all to the pan, stirring constantly."
 		}
 	],
 
 	"drinks": [{
-			"itemName": "William",
-			"ingredients": ["Banana", "apple", "pops"],
-			"description": "Paul"
+			"itemName": "Daiquiri",
+			"ingredients": ["White Rum", "Sugar", "Lime Juice"],
+			"description": "Chill coupe glass with soda water. Add sugar to mixing tin and then add white rum and lime juice. Add a little cracked ice to the bottom then fill the rest of the tin with ice."
 		},
 
 		{
-			"itemName": "William",
-			"ingredients": ["Banana", "apple", "pops"],
-			"description": "Paul"
+			"itemName": "Caipirinha",
+			"ingredients": [" Cachaca", " Lime", "Lime Wedge"],
+			"description": "Brown sugar and muddle the ingredients. Add the rest of the lime and continue to muddle, to dissolve the sugar. Add the Cachaca and then add crushed ice on top. Stir to continue to dissolve the sugar. Add more crushed ice and continue to stir. "
 		}
 	]
 }
