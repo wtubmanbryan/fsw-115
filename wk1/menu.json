@@ -1,0 +1,64 @@
+{
+	"appetizers": [{
+			"itemName": "Antipasto Skewers",
+			"ingredients": ["grape", "tomatoes", "mozzarella cheese"],
+			"description": "On 12 wooden 6-in. skewers, alternately thread tomatoes, mozzarella, folded salami slices and olives. Refrigerate until serving. If desired, drizzle skewers with vinaigrette to serve."
+		},
+		{
+			"itemName": "Baked Asparagus Dip",
+			"ingredients": ["asparagus", "Parmesan cheese", "mayonnaise", "pita chips"],
+			"description": "Combination of asparagus, cheese and mayonnaise, served warm with pita chips. "
+		}
+
+	],
+	"coldSandwiches": [{
+			"itemName": "Cobb Salad Sub",
+			"ingredients": ["unsliced Italian bread", "balsamic vinaigrette", "cherry tomatoes"],
+			"description": "Brush vinaigrette over bread halves. Layer spinach, ham, eggs, bacon, cheese and tomatoes on bread bottom."
+		},
+
+		{
+			"itemName": "William",
+			"ingredients": ["Banana", "apple", "pops"],
+			"description": "Paul"
+		}
+	],
+
+	"hotSandwiches": [{
+			"itemName": "William",
+			"ingredients": ["Banana", "apple", "pops"],
+			"description": "Paul"
+		},
+
+		{
+			"itemName": "William",
+			"ingredients": ["Banana", "apple", "pops"],
+			"description": "Paul"
+		}
+	],
+	"desserts": [{
+			"itemName": "William",
+			"ingredients": ["Banana", "apple", "pops"],
+			"description": "Paul"
+		},
+
+		{
+			"itemName": "William",
+			"ingredients": ["Banana", "apple", "pops"],
+			"description": "Paul"
+		}
+	],
+
+	"drinks": [{
+			"itemName": "William",
+			"ingredients": ["Banana", "apple", "pops"],
+			"description": "Paul"
+		},
+
+		{
+			"itemName": "William",
+			"ingredients": ["Banana", "apple", "pops"],
+			"description": "Paul"
+		}
+	]
+}
