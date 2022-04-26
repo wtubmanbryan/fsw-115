@@ -2,11 +2,11 @@
 const createLi = (todoList) => {
     const li = document.createElement('li');
     // add user details to `li`
-    li.textContent = `ID: ${todoList._id} User Name: ${todoList.user} Description: ${todoList.description} IS Complete: ${todoList.isComplete}`;
-    if(todoList.isComplete == 'yes')
-    {
-        li.style.textDecoration = "line-through"
-    }
+    li.innerHTML = `first Name: ${todoList.first_name} Last Name: ${todoList.last_name} Email: ${todoList.email} <img src = '${todoList.avatar}'>`;
+    // if(todoList.isComplete == 'yes')
+    // {
+    //     li.style.textDecoration = "line-through"
+    // }
     return li;
 };
 
@@ -20,13 +20,12 @@ const appendToDOM = (todo) => {
 };
 
 const fetchUsers = () => {
-    axios.get('http://api.bryanuniversity.edu/wtubman/list')
+    axios.get('https://reqres.in/api/users')
         .then(response => {
-            const todo = response.data;
+            const todo = response.data.data;
             // append to DOM
             appendToDOM(todo);
         })
         .catch(error => console.error(error));
 };
 
-//fetchUsers();

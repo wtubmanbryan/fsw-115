@@ -2,8 +2,8 @@
 const createLi = (todoList) => {
     const li = document.createElement('li');
     // add user details to `li`
-    li.textContent = `ID: ${todoList._id} User Name: ${todoList.user} Description: ${todoList.description} IS Complete: ${todoList.isComplete}`;
-    if(todoList.isComplete == 'yes')
+    li.innerHTML = `Planet Name: ${todoList.name} Rotation Period: ${todoList.rotation_period} Orbital Period: ${todoList.orbital_period} Diameter ${todoList.diameter}`;
+    if(todoList.rotation_period == '24')
     {
         li.style.textDecoration = "line-through"
     }
@@ -19,14 +19,13 @@ const appendToDOM = (todo) => {
     });
 };
 
-const fetchUsers = () => {
-    axios.get('http://api.bryanuniversity.edu/wtubman/list')
+const fetchPlanets = () => {
+    axios.get('https://swapi.dev/api/planets/')
         .then(response => {
-            const todo = response.data;
+            const todo = response.data.results;
             // append to DOM
             appendToDOM(todo);
         })
         .catch(error => console.error(error));
 };
 
-//fetchUsers();

@@ -29,4 +29,23 @@ const fetchUsers = () => {
         .catch(error => console.error(error));
 };
 
-//fetchUsers();
+fetchUsers();
+
+const postData = () =>{
+    fetch("http://api.bryanuniversity.edu/wtubman/list", {
+     
+    // Adding method type
+    method: "POST",
+     
+    // Adding body or contents to send
+    body: JSON.stringify({
+        name: "Banana",
+        description: "Sun color fruit",
+        price: 100
+    }),
+  
+})
+};
+
+postData();
+
