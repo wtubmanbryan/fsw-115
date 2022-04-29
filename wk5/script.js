@@ -19,6 +19,7 @@ const appendToDOM = (todo) => {
     });
 };
 
+
 const fetchUsers = () => {
     axios.get('http://api.bryanuniversity.edu/wtubman/list')
         .then(response => {
@@ -30,6 +31,10 @@ const fetchUsers = () => {
 };
 
 fetchUsers();
+let submitBtn = document.querySelector('#submit')
+let itemName = document.querySelector('#itemName')
+let description = document.querySelector('#description')
+let price = document.querySelector('#price')
 
 const postData = () =>{
     fetch("http://api.bryanuniversity.edu/wtubman/list", {
@@ -39,13 +44,17 @@ const postData = () =>{
      
     // Adding body or contents to send
     body: JSON.stringify({
-        name: "Banana",
-        description: "Sun color fruit",
-        price: 100
+        name: "tomato",
+        description: "fruit of the loan",
+        price: 200
     }),
   
 })
+
 };
 
 postData();
+//submitBtn.addEventListener("click", postData)
+
+
 
